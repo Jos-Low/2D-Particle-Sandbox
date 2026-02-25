@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Configuration -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Website title -->
+    <title>SandBox</title>
+
+    <!-- Load style -->
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<body>
+    <div class="outer">
+        <!-- Canvas -->
+        <div class="center-canvas">
+            <canvas id="canvas" width="1500" height="600"></canvas>
+        </div>
+        <!-- Inputs -->
+        <div class="buttons">
+            <!-- Clear button -->
+            <button class="button" id="clear-button">Clear Screen</button>
+
+            <!-- Speed slider -->
+            <p>Speed: <span id="speed"></span></p>
+            <input type="range" min="1" max="100" value="50" class="slider" id="speedRange">
+
+            <!-- Size slider -->
+            <p>Brush Size: <span id="brushSize"></span></p>
+            <input type="range" min="1" max="5" value="3" class="slider" id="brushRange">
+
+            <!-- Particle type selector -->
+            <label for="particle">Choose a Type:</label>
+            <select name="particle" id="particle">
+            <option value="Sand"  style="background-color: #FFCC66">Sand</option>
+            <option value="Water" style="background-color: blue">Water</option>
+            <option value="Stone" style="background-color: gray">Stone</option>
+            <option value="Dirt" style="background-color: rgb(152, 75, 31)">Dirt</option>
+            <option value="Fire" style="background-color: rgb(251, 84, 6)">Fire</option>
+            <option value="Wood" style="background-color: rgb(165, 97, 42)">Wood</option>
+            <option value="Steam" style="background-color: lightgray; color: black">Steam</option>
+            <option value="Oil" style="background-color: black; color: white">Oil</option>
+            <option value="Explosive" style="background-color: firebrick">Explosive</option>
+            <option value="Lava" style="background-color: orangered">Lava</option>
+            <option value="Basalt" style="background-color: #2B2B2B">Basalt</option>
+            <option value="Eraser" style="background-color: red">Eraser</option>
+            </select>
+        </div>
+    </div>
+    <!-- Load code -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
