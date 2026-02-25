@@ -1,1 +1,30 @@
-# 2D-Particle-Sandbox
+🖥️ Sandbox Project
+
+A dynamic, interactive web-based sandbox environment for experimenting with HTML, CSS, and JavaScript. This project demonstrates hands-on web development skills and showcases the ability to build a modular, responsive, and interactive frontend.
+
+💡 Features
+
+Particles: Sand, Water, Stone, Dirt, Fire, Wood, Steam, Oil, Explosive, Lava, Basalt, and Eraser.
+
+Reactions: Most particles react with other particles differently, experiment to discover them!
+
+Responsive Layout: Fully responsive design for desktop.
+
+Modular JavaScript: Clean, structured JS code for easy extension and maintenance.
+
+Interactive UI: Buttons, inputs, and live feedback for immediate results.
+
+🛠️ Tech Stack
+
+HTML5 – Structured markup for web content.
+
+CSS3 – Responsive styling with modern layout techniques.
+
+JavaScript (ES6) – Interactive functionality and dynamic content.
+
+Drag-and-drop interface for components
+
+Syntax highlighting with a lightweight library
+
+🚀 Test it out
+https://jos-low.github.io/2D-Particle-Sandbox/
